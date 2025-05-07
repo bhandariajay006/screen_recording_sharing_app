@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://JavaScript-Mastery-s-workspace-itq24l.eu-central-1.xata.sh/db/jsm_snapcast",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
