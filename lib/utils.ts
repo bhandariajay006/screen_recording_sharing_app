@@ -300,7 +300,7 @@ export const calculateRecordingDuration = (startTime: number | null): number =>
     startTime ? Math.round((Date.now() - startTime) / 1000) : 0;
 
 export const createIframeLink = (videoId: string) =>
-    `https://iframe.mediadelivery.net/embed/412800/${videoId}?autoplay=true&preload=true`;
+    `https://iframe.mediadelivery.net/embed/421774/${videoId}?autoplay=true&preload=true`;
 
 export const doesTitleMatch = (videos: any, searchQuery: string) => ilike(
     sql`REPLACE(REPLACE(REPLACE(LOWER(${videos.title}), '-', ''), '.', ''), ' ', '')`,
