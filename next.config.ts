@@ -1,17 +1,22 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-    eslint: {
-        ignoreDuringBuilds: true,
+  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "*",
+        port: "",
+        pathname: "/**",
+      },
+    ],
+  },
+  experimental: {
+    serverActions: {
+      bodySizeLimit: "50mb",
     },
-    typescript: {
-      ignoreBuildErrors: true,
-    },
-    images: {
-        remotePatterns: [
-            { hostname: '*', protocol: 'https', port: '', pathname: '/**' }
-        ]
-    }
+  },
 };
 
 export default nextConfig;

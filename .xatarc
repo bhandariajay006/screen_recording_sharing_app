@@ -1,5 +1,5 @@
 {
-  "databaseURL": "https://JavaScript-Mastery-s-workspace-itq24l.eu-central-1.xata.sh/db/jsm_snapcast",
+  "databaseURL": "https://Anil-Thapa-Magar-s-workspace-hjs5mv.eu-central-1.xata.sh/db/snap-cast",
   "codegen": {
     "output": "src/xata.ts"
   }
